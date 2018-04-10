@@ -10,6 +10,9 @@ The SVGs were created with [Inkscape](https://inkscape.org/en/)
 and then processed with [svgo](https://github.com/svg/svgo)
 to remove all the Inkscape cruft.
 
+A "gallery" of the images can be viewed
+in the [README for the svg directory](https://github.com/mwibrow/CALVin-images/blob/master/svg/README.md).
+
 ## Converting to other formats
 
 If PNG (or JPEG, etc.) versions of a particular image is required,
@@ -25,9 +28,3 @@ should convert the SVG file to a 512px by 512px
 PNG.
 
 
-|  |  |
-| :---: | :---: |
-| ball | peas |
-| <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> | <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> |
-| ball | peas |
-| <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> | <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> |
