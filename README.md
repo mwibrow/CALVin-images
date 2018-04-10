@@ -23,3 +23,11 @@ inkscape -z -w 512 ball.svg -e ball.png
 
 should convert the SVG file to a 512px by 512px
 PNG.
+
+
+|  |  |
+| :---: | :---: |
+| ball | peas |
+| <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> | <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> |
+| ball | peas |
+| <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> | <img width=64 height=64 src="https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/ball.svg?sanitize=true"> |
