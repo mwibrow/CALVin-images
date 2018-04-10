@@ -15,7 +15,7 @@ in the [README for the svg directory](https://github.com/mwibrow/CALVin-images/b
 
 ## Converting to other formats
 
-If PNG (or JPEG, etc.) versions of a particular image is required,
+If a PNG (or JPEG, etc.) version of a particular image is required,
 then the easiest way is to use Inkscape at the command line
 (Inkscape usually does a better job of retaining transparency
 for PNG files than other methods). For example:
