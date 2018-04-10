@@ -13,10 +13,10 @@ def main():
         for i in range(0, len(svgs), cols):
             row = svgs[i:i+cols]
             file_out.write('|{}|\n'.format('|'.join(
-                [svg.split(os.extsep)[0] for svg in row])))
-            file_out.write('|{}|\n'.format('|'.join(
                 ['<img width=96 height=96 src="{}"></img>'.format(url_template.format(svg))
                  for svg in row])))
+            file_out.write('|{}|\n'.format('|'.join(
+                [svg.split(os.extsep)[0] for svg in row])))
 
 if __name__ == '__main__':
     main()
