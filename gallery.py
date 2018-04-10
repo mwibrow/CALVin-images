@@ -15,7 +15,7 @@ def main():
             file_out.write('|{}|\n'.format('|'.join(
                 [svg.split(os.extsep)[0] for svg in row])))
             file_out.write('|{}|\n'.format('|'.join(
-                ['<img width=64 height=64 src="{}"></img>'.format(url_template.format(svg))
+                ['<img width=96 height=96 src="{}"></img>'.format(url_template.format(svg))
                  for svg in row])))
 
 if __name__ == '__main__':
