@@ -1,7 +1,7 @@
 import os
 
 svg_dir = 'svg'
-url_template = 'https://raw.githubusercontent.com/mwibrow/CALVin-images/master/svg/{}?sanitize=true'
+url_template = 'https://raw.githubusercontent.com/mwibrow/CALVin-images/main/svg/{}?sanitize=true'
 def main():
     cols = 6
     svgs = [svg for svg in os.listdir(svg_dir)
