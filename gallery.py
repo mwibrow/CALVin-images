@@ -4,8 +4,8 @@ svg_dir = 'svg'
 url_template = 'https://raw.githubusercontent.com/mwibrow/CALVin-images/main/svg/{}?sanitize=true'
 def main():
     cols = 6
-    svgs = [svg for svg in os.listdir(svg_dir)
-            if svg.endswith('svg')]
+    svgs = sorted([svg for svg in os.listdir(svg_dir)
+            if svg.endswith('svg')])
     with open(os.path.join(svg_dir, 'README.md'), 'w') as file_out:
         file_out.write('{}\n'.format('|' * (cols + 1)))
         file_out.write('{}|\n'.format(
